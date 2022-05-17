@@ -1,0 +1,2 @@
+# Constant
+#include &lt;MsgBoxConstants.au3> #include &lt;StringConstants.au3>  Global $strANSI = "tytułu:", _        $bstrANSI = Binary($strANSI), _        $strUTF8 = BinaryToString($bstrANSI, $SB_UTF8)  MsgBox($MB_ICONINFORMATION, "Encondings:", "$strANSI = " &amp; $strANSI &amp; @CRLF &amp; _                                            "$bstrANSI = " &amp; $bstrANSI &amp; @CRLF &amp; _                                            "$strUTF8 = " &amp; $strUTF8)
